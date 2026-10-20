@@ -1,0 +1,1204 @@
+{
+  "metadata": {
+    "title": {
+      "tr": "İslam'da Yenmesi ve İçilmesi Haram Olan Yiyecek ve İçecekler Rehberi",
+      "en": "Comprehensive Guide to Forbidden (Haram) Foods and Drinks in Islam"
+    },
+    "description": {
+      "tr": "Kur'an-ı Kerim, Sünnet, İcma ve fıkıh mezheplerinin (Hanefi, Şafii, Maliki, Hanbeli) hükümleri doğrultusunda T.C. Diyanet İşleri Başkanlığı Din İşleri Yüksek Kurulu, Kur'an Yolu Tefsiri ve uluslararası helal standartları kaynak alınarak hazırlanmış iki dilli (Türkçe/İngilizce) kapsamlı veri seti.",
+      "en": "Bilingual (Turkish/English) dataset of forbidden (haram) foods, beverages, animal parts, and food additives in Islam, compiled from the Quran, Sunnah, scholarly consensus (Ijma), major fiqh schools (Hanafi, Shafi'i, Maliki, Hanbali), the High Board of Religious Affairs of Türkiye (Diyanet), and international halal certification standards."
+    },
+    "fundamental_principles": {
+      "tr": "İslam fıkhında eşyada ve gıdalarda temel ilke helalliktir (ibâha-i asliyye). Hakkında kesin bir nas (ayet veya sahih hadis) bulunmayan, temiz ve sağlığa yararlı olan (tayyibât) her şey helal; pis, iğrenç ve sağlığa/akla zararlı olan (habâis) şeyler ise haramdır.",
+      "en": "In Islamic jurisprudence, the foundational principle regarding food and drink is permissibility (al-ibahah al-asliyyah). Everything pure, wholesome, and beneficial (at-tayyibat) is halal unless explicitly prohibited by scripture, whereas impure, repulsive, intoxicating, or harmful things (al-khaba'ith) are haram."
+    },
+    "classification_of_haram": {
+      "haram_li_aynihi": {
+        "name": {
+          "tr": "Haram li-aynihî (Haram li-zâtihî)",
+          "en": "Haram li-aynihi (Intrinsically Haram)"
+        },
+        "definition": {
+          "tr": "Bizzat kendi özü ve yapısı itibarıyla dinen pis, zararlı veya yasaklanmış olan maddelerdir (ör. domuz eti, akıtılmış kan, leş/meyte, şarap/alkollü içkiler).",
+          "en": "Substances that are forbidden in and of themselves due to their intrinsic impurity or scriptural prohibition (e.g., pork, flowing blood, carrion, wine/intoxicants)."
+        }
+      },
+      "haram_li_ghayrihi": {
+        "name": {
+          "tr": "Haram li-gayrihî",
+          "en": "Haram li-ghayrihi (Extrinsically / Derivatively Haram)"
+        },
+        "definition": {
+          "tr": "Aslı itibarıyla helal ve temiz olduğu halde, elde ediliş şekli veya dışsal bir sebep yüzünden haram kılınan gıdalardır (ör. çalıntı, gasp, rüşvet veya faiz parasıyla alınan helal gıdalar).",
+          "en": "Foods and drinks that are intrinsically lawful and pure, but become forbidden due to external factors such as unlawful acquisition (e.g., stolen food or items bought with usurped, bribed, or usurious funds)."
+        }
+      }
+    },
+    "necessity_exception_darurah": {
+      "tr": "Zaruret Hali (Iztırar): Açlıktan veya susuzluktan ölme ya da ağır hastalığa yakalanma tehlikesi bulunan ve helal gıdaya/ilaca ulaşamayan kimse, 'Zaruretler yasakları mubah kılar' (Bakara 2/173; Mâide 5/3; Mecelle md. 21) ilkesi gereği, haramı helal saymamak, başkasının hakkına tecavüz etmemek ve yalnızca hayatta kalacak/tedavi olacak miktarı aşmamak şartıyla haram maddelerden tüketebilir.",
+      "en": "Exception of Necessity (Darurah): Under life-threatening starvation, thirst, or medical necessity where no halal alternative exists, consuming a forbidden substance is temporarily permitted strictly to the extent needed to preserve life ('Necessity renders prohibited things permissible' - Quran 2:173, 5:3), without transgression or desiring sin."
+    },
+    "research_sources": [
+      {
+        "id": "SRC_DIYANET_KARA_HAYVANLARI",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Kara hayvanlarından eti yenilip yenilmeyenler hangileridir?",
+        "title_en": "Which land animals are permissible and impermissible to eat?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff"
+      },
+      {
+        "id": "SRC_DIYANET_DENIZ_URUNLERI",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Yengeç, ıstakoz, karides, kalamar ve midye gibi deniz ürünleri yenir mi?",
+        "title_en": "Is it permissible to eat seafood such as crab, lobster, shrimp, squid, and mussels?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/yengec-istakoz-karides-kalamar-ve-midye-gibi-deniz-urunleri/0198bc12-9106-7f6d-b2d3-2beaa72b6fce"
+      },
+      {
+        "id": "SRC_DIYANET_YENMEYEN_ORGANLAR",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Bir hayvanın yenilmeyecek yerleri nerelerdir? Bu organların ne yapılması gerekir?",
+        "title_en": "Which parts of an animal are inedible and what should be done with them?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/bir-hayvanin-yenilmeyecek-yerleri-nerelerdir-bu-organlarin/0193c42d-7e8d-731a-2e74-9974f7d95856"
+      },
+      {
+        "id": "SRC_DIYANET_KESIM_SARTLARI",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Hayvan kesecek kimselerde bulunması gereken şartlar nelerdir?",
+        "title_en": "What are the conditions required for a person slaughtering an animal?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/hayvan-kesecek-kimselerde-bulunmasi-gereken-sartlar-nelerdir/0193c42d-9a4c-7695-365c-51ebf9a2f72e"
+      },
+      {
+        "id": "SRC_DIYANET_AT_ETI",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "At eti helal midir?",
+        "title_en": "Is horse meat halal?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/at-eti-helal-midir/0193c42d-99ef-7a0a-deee-39e86f92e7fb"
+      },
+      {
+        "id": "SRC_DIYANET_ESEK_SUTU",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Eşek sütünün tedavi maksatlı içilmesi caiz midir?",
+        "title_en": "Is it permissible to drink donkey milk for medical treatment?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/esek-sutunun-tedavi-maksatli-icilmesi-caiz-midir/0193c42d-aac4-7015-24b6-9bdf63f7fd17"
+      },
+      {
+        "id": "SRC_DIYANET_YEMEKTE_ALKOL",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Yiyecekler pişirilirken şarap gibi alkollü içeceklerin katılması caiz midir?",
+        "title_en": "Is it permissible to add alcoholic beverages like wine while cooking food?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/yiyecekler-pisirilirken-sarap-gibi-alkollu-iceceklerin/0193c42d-a9f2-7fad-8f08-bf81a23dd46e"
+      },
+      {
+        "id": "SRC_DIYANET_SENTETIK_ALKOL",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Üretim Aşamalarında Sentetik Alkol Kullanımının Hükmü Nedir?",
+        "title_en": "What is the ruling on using synthetic alcohol during production stages?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/uretim-asamalarinda-sentetik-alkol-kullaniminin-hukmu-nedir/0193c42d-b6f3-750b-466b-3e8585270328"
+      },
+      {
+        "id": "SRC_DIYANET_SIGARA",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Sigara içmenin dini hükmü nedir?",
+        "title_en": "What is the religious ruling on smoking cigarettes?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/sigara-icmenin-dini-hukmu-nedir/0193c42d-b845-70df-5e8c-44ed6a000be4"
+      },
+      {
+        "id": "SRC_DIYANET_TEDAVIDE_HARAM",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Din İşleri Yüksek Kurulu",
+        "title_tr": "Kullanılması veya yenilmesi haram bir maddenin ya da bunlardan imal edilen ilaçların tedavide kullanılması caiz midir?",
+        "title_en": "Is it permissible to use forbidden substances or medicines derived from them for medical treatment?",
+        "url": "https://kurul.diyanet.gov.tr/tr/fetva/kullanilmasi-veya-yenilmesi-haram-bir-maddenin-ya-da/0193c42d-9abb-735d-31d9-b49358351387"
+      },
+      {
+        "id": "SRC_KURAN_MAIDE_3",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Kur'an Yolu Tefsiri",
+        "title_tr": "Mâide Suresi 3. Ayet ve Tefsiri",
+        "title_en": "Surah Al-Ma'idah Verse 3 and Exegesis (Tafsir)",
+        "url": "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri"
+      },
+      {
+        "id": "SRC_KURAN_BAKARA_173",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Kur'an Yolu Tefsiri",
+        "title_tr": "Bakara Suresi 173. Ayet ve Tefsiri",
+        "title_en": "Surah Al-Baqarah Verse 173 and Exegesis (Tafsir)",
+        "url": "https://kuran.diyanet.gov.tr/tefsir/Bakara-suresi/180/173-ayet-tefsiri"
+      },
+      {
+        "id": "SRC_KURAN_ENAM_145",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Kur'an Yolu Tefsiri",
+        "title_tr": "En'âm Suresi 145. Ayet ve Tefsiri",
+        "title_en": "Surah Al-An'am Verse 145 and Exegesis (Tafsir)",
+        "url": "https://kuran.diyanet.gov.tr/tefsir/En'%C3%A2m-suresi/934/145-ayet-tefsiri"
+      },
+      {
+        "id": "SRC_KURAN_MAIDE_90_91",
+        "institution": "T.C. Diyanet İşleri Başkanlığı - Kur'an Yolu Tefsiri",
+        "title_tr": "Mâide Suresi 90-91. Ayetler ve Tefsiri (İçki ve Kumar Yasağı)",
+        "title_en": "Surah Al-Ma'idah Verses 90-91 and Exegesis (Prohibition of Intoxicants and Gambling)",
+        "url": "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/759/90-91-ayet-tefsiri"
+      },
+      {
+        "id": "SRC_DIYANET_HABER_HARAM_CESITLERI",
+        "institution": "Diyanet Haber / DİB İslam İlmihali",
+        "title_tr": "Haramın çeşitleri nelerdir? (Haram li-aynihî ve Haram li-gayrihî)",
+        "title_en": "What are the types of Haram? (Haram li-aynihi and Haram li-ghayrihi)",
+        "url": "https://www.diyanethaber.com.tr/haramin-cesitleri-nelerdir"
+      },
+      {
+        "id": "SRC_AHF_FORBIDDEN_FOODS",
+        "institution": "American Halal Foundation (AHF)",
+        "title_tr": "Müslümanlar Ne Yiyemez? İslami Beslenme Kuralları Rehberi",
+        "title_en": "What Can Muslims Not Eat? Guide to Islamic Dietary Laws",
+        "url": "https://halalfoundation.org/what-can-muslim-not-eat/"
+      },
+      {
+        "id": "SRC_AHF_INGREDIENTS",
+        "institution": "American Halal Foundation (AHF)",
+        "title_tr": "Helal ve Haram İçerikler ve Katkı Maddeleri Kapsamlı Rehberi",
+        "title_en": "A Comprehensive Guide to Halal and Haram Ingredients",
+        "url": "https://halalfoundation.org/halal-and-haram-ingredients-list/"
+      },
+      {
+        "id": "SRC_ISLAMQA_INSECTS",
+        "institution": "IslamQA (Al-Majmoo' / Fiqh Reference)",
+        "title_tr": "Böcekler, Haşerat ve Kemirgenlerin Yenmesinin Hükmü",
+        "title_en": "Are Insects Halal? Ruling on Eating Insects, Vermin and Rodents",
+        "url": "https://islamqa.info/en/answers/21901/are-insects-halal"
+      },
+      {
+        "id": "SRC_JELATIN_DIYANET_SUMMARY",
+        "institution": "Oye Teknoloji (Din İşleri Yüksek Kurulu 18.08.2017 Jelatin Kararı Özeti)",
+        "title_tr": "Jelatin helal mi? Diyanet Din İşleri Yüksek Kurulu'nun Jelatin Değerlendirmesi",
+        "title_en": "Is Gelatin Halal? Summary of Diyanet High Board of Religious Affairs Ruling on Gelatin",
+        "url": "https://oyeteknoloji.com/tr/blog/is-gelatin-halal/"
+      },
+      {
+        "id": "SRC_WIKIPEDIA_ISLAMIC_DIETARY_LAWS",
+        "institution": "Wikipedia (Academic & Jurisprudential Overview)",
+        "title_tr": "İslami Beslenme Kuralları (İslamic Dietary Laws)",
+        "title_en": "Islamic Dietary Laws",
+        "url": "https://en.wikipedia.org/wiki/Islamic_dietary_laws"
+      }
+    ]
+  },
+  "categories": [
+    {
+      "category_id": "CAT_01_QURANIC_EXPLICIT_PROHIBITIONS",
+      "category_name": {
+        "tr": "1. Kur'an-ı Kerim'de Doğrudan (Nass İle) Haram Kılınan Hayvansal Gıdalar ve Kesim İhlalleri",
+        "en": "1. Animal Products and Slaughter Violations Explicitly Prohibited in the Quran"
+      },
+      "category_summary": {
+        "tr": "Bakara 2/173, Mâide 5/3, En'âm 6/121, 145 ve Nahl 16/115 ayetlerinde açıkça ismen ve nitelik olarak yasaklanan, bütün İslam mezheplerinin haramlığında ittifak ettiği (icma) maddelerdir.",
+        "en": "Items explicitly prohibited by name and attribute in Quran 2:173, 5:3, 6:121, 6:145, and 16:115, upon which all Islamic schools of jurisprudence are in unanimous consensus (Ijma)."
+      },
+      "items": [
+        {
+          "id": "ITEM_01_01",
+          "name": {
+            "tr": "Domuz ve Tüm Domuz Türevleri (Evcil ve Yaban Domuzu)",
+            "en": "Pork and All Swine By-Products (Domestic Pig and Wild Boar)"
+          },
+          "arabic_term": "لحم الخنزير (Lahm al-Khinzir)",
+          "ruling": {
+            "tr": "Kesin Haram (Haram li-aynihî - İcma ile)",
+            "en": "Strictly Haram (Intrinsically Haram by unanimous consensus)"
+          },
+          "examples": {
+            "tr": [
+              "Domuz eti (pork, ham, jambon, bacon, domuz sosisi/salamı, pepperoni)",
+              "Domuz iç yağı ve kuyruk yağı (lard)",
+              "Domuz derisi, kemiği ve kıkırdağı",
+              "Domuz sütü ve sakatatları",
+              "Domuz kaynaklı jelatin, pepsin enzimi ve lipaz"
+            ],
+            "en": [
+              "Pork meat (pork chops, ham, bacon, pork sausages, pepperoni, prosciutto)",
+              "Pig fat and suet (lard)",
+              "Pig skin, bones, and cartilage",
+              "Sow milk and offal",
+              "Porcine gelatin, porcine pepsin, and porcine lipase"
+            ]
+          },
+          "explanation": {
+            "tr": "Kur'an-ı Kerim'de ismen zikredilerek yasaklanan tek hayvan domuzdur. En'âm 6/145'te 'rics' (maddi ve manevi pislik/murdar) olarak nitelendirildiği için İslam alimleri evcil veya yabani domuzun sadece etinin değil; yağının, derisinin, kemiğinin ve sütünün de bütünüyle haram olduğunda ittifak etmişlerdir.",
+            "en": "Swine is the only animal prohibited specifically by name in the Quran. Because Surah Al-An'am 6:145 describes it as 'rijs' (filthy/impure), Islamic scholars unanimously agree that every part of both domestic pigs and wild boars—including meat, fat (lard), skin, bones, and milk—is completely haram."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/173, Mâide 5/3, En'âm 6/145, Nahl 16/115",
+            "Hadis: Buhârî, Büyû', 112; Müslim, Müsâkât, 71"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff",
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri",
+            "https://kuran.diyanet.gov.tr/tefsir/Bakara-suresi/180/173-ayet-tefsiri"
+          ]
+        },
+        {
+          "id": "ITEM_01_02",
+          "name": {
+            "tr": "Akıtılmış Kan ve Kan Ürünleri",
+            "en": "Flowing (Poured-Forth) Blood and Blood By-Products"
+          },
+          "arabic_term": "الدم المسفوح (Ad-Dam al-Masfuh)",
+          "ruling": {
+            "tr": "Kesin Haram (Haram li-aynihî - İcma ile)",
+            "en": "Strictly Haram (Intrinsically Haram by unanimous consensus)"
+          },
+          "examples": {
+            "tr": [
+              "Sıvı hayvan veya insan kanı",
+              "Kan sucuğu / kan sosisi (black pudding, blood sausage)",
+              "Kurutulmuş kan tozu ve gıdalarda kullanılan kan plazması",
+              "Canlı hayvandan akıtılarak alınan kan"
+            ],
+            "en": [
+              "Liquid animal or human blood",
+              "Blood sausage / black pudding / morcilla",
+              "Dried blood powder and blood plasma used in processed foods",
+              "Blood drawn from a living animal"
+            ]
+          },
+          "explanation": {
+            "tr": "En'âm 6/145 ayetinde belirtildiği üzere haram olan kan, kesim veya yaralanma esnasında damarlardan dışarı akıp boşalan kandır (dem-i mesfûh). Usulüne uygun kesilmiş helal bir hayvanın etinin ve damarlarının içinde kalan kan ile ciğer ve dalakta bulunan kan ise helaldir (İbn Mâce, Et'ime, 31).",
+            "en": "As specified in Surah Al-An'am 6:145, the prohibited blood is 'flowing blood' (dam masfuh) that pours out during slaughter or injury. Residual blood remaining within the muscle tissue and veins after lawful slaughter, as well as the liver and spleen, are halal."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/173, Mâide 5/3, En'âm 6/145, Nahl 16/115",
+            "Hadis: İbn Mâce, Et'ime, 31; Ahmed b. Hanbel, el-Müsned, II, 97"
+          ],
+          "source_urls": [
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri",
+            "https://kuran.diyanet.gov.tr/tefsir/En'%C3%A2m-suresi/934/145-ayet-tefsiri",
+            "https://halalfoundation.org/halal-and-haram-ingredients-list/"
+          ]
+        },
+        {
+          "id": "ITEM_01_03",
+          "name": {
+            "tr": "Meyte (Leş / Kendiliğinden Ölen veya Dini Usule Uygun Kesilmeyen Hayvanlar)",
+            "en": "Carrion / Maytah (Animals Dead Naturally or Without Lawful Islamic Slaughter)"
+          },
+          "arabic_term": "الميتة (Al-Maytah)",
+          "ruling": {
+            "tr": "Kesin Haram (Balık ve çekirge istisnası hariç)",
+            "en": "Strictly Haram (Except fish and locusts)"
+          },
+          "examples": {
+            "tr": [
+              "Hastalık, yaşlılık veya doğal sebeplerle kendiliğinden ölen hayvanlar",
+              "Boğularak ölen hayvanlar (el-Münhanika - iple, suda veya nefessiz kalarak)",
+              "Taş, sopa, kurşun veya elektrik şoku/darbe ile vurularak kanı akıtılmadan öldürülen hayvanlar (el-Mevkûze)",
+              "Yüksek bir yerden düşerek veya uçurumdan yuvarlanarak ölen hayvanlar (el-Müteraddiye)",
+              "Başka bir hayvan tarafından boynuzlanarak veya dövüşerek ölen hayvanlar (en-Natîha)",
+              "Yırtıcı hayvanlar tarafından parçalanarak öldürülen hayvanlar (Mâ ekele's-sebu')",
+              "Canlı bir hayvandan koparılan et parçası ('Canlı hayvandan koparılan parça meytedir' hadisi gereği)",
+              "Müslüman veya Ehl-i Kitap olmayan (ateist, putperest, ateşperest, mürted vb.) kişilerce kesilen hayvanlar"
+            ],
+            "en": [
+              "Animals that died naturally from illness, old age, or unknown causes",
+              "Strangled or suffocated animals (Al-Munkhaniqah)",
+              "Animals beaten, bludgeoned, electrocuted, or shot to death without lawful bleeding (Al-Mawqudhah)",
+              "Animals that died by falling from a height or cliff (Al-Mutaraddiyah)",
+              "Animals gored to death by another animal's horns (An-Natihah)",
+              "Animals killed or partially eaten by wild predators (Ma akala as-sabu')",
+              "Flesh cut from a living animal (which is ruled as carrion by Hadith)",
+              "Animals slaughtered by ineligible persons (polytheists, atheists, apostates, etc.)"
+            ]
+          },
+          "explanation": {
+            "tr": "Eti helal olan kara hayvanlarının yenilebilmesi için kesim anında canlı olması ve İslami usule (tezkiye/zebh) uygun olarak yemek ve nefes boruları ile şah damarlarının kesilip kanının akıtılması şarttır. Ancak boğulma, darbe, düşme, boynuzlanma veya yırtıcı saldırısına uğrayan hayvanlara henüz ölmeden (canlılık belirtisi varken) yetişilip usulünce kesilirse etleri helal olur.",
+            "en": "For permissible land animals to be halal, they must be alive at the time of slaughter and slaughtered according to Islamic rites (dhabihah/tadhkIyah) by severing the windpipe, esophagus, and jugular veins to drain the blood. However, if an injured, strangled, or fallen animal is reached while still alive and lawfully slaughtered before dying, its meat is halal."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/173, Mâide 5/3, En'âm 6/145",
+            "Hadis: Ebû Dâvûd, Sayd, 2 (Canlıdan koparılan parça); Ebû Dâvûd, Tahâret, 41 (Deniz ölüsü istisnası)"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff",
+            "https://kurul.diyanet.gov.tr/tr/fetva/hayvan-kesecek-kimselerde-bulunmasi-gereken-sartlar-nelerdir/0193c42d-9a4c-7695-365c-51ebf9a2f72e",
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri"
+          ]
+        },
+        {
+          "id": "ITEM_01_04",
+          "name": {
+            "tr": "Allah'tan Başkası Adına Kesilen, Put Sunaklarında Boğazlanan veya Kasten Besmelesiz Kesilen Hayvanlar",
+            "en": "Animals Slaughtered in a Name Other Than Allah, on Idol Altars, or with Intentional Omission of Basmala"
+          },
+          "arabic_term": "ما أهل لغير الله به وما ذبح على النصب (Ma Uhilla li-Ghayrillahi Bihi wa Ma Dhubiha 'ala an-Nusub)",
+          "ruling": {
+            "tr": "Kesin Haram",
+            "en": "Strictly Haram"
+          },
+          "examples": {
+            "tr": [
+              "Putlar, dikili taşlar (ensâb/nüsub), kutsal sayılan varlıklar veya şahıslar adına kesilen kurbanlar",
+              "Türbe, yatır veya ruhani varlıkların bizzat kendisi adına (Allah rızası dışında onlara tazim için) boğazlanan hayvanlar",
+              "Kesim sırasında kasten Allah'ın adı (Besmele) terk edilerek kesilen hayvanlar (Hanefi, Maliki ve Hanbeli mezheplerine göre haram; unutularak terk edilirse helaldir)"
+            ],
+            "en": [
+              "Animals sacrificed to idols, pagan altars (nusub), false deities, or spirits",
+              "Animals slaughtered in the name of shrines, saints, or any entity other than Allah",
+              "Animals slaughtered while intentionally omitting Allah's name (Basmala) (haram according to Hanafi, Maliki, and Hanbali schools; forgiven if omitted out of forgetfulness)"
+            ]
+          },
+          "explanation": {
+            "tr": "Tevhid ilkesi gereği hayvanlar yalnızca yaratıcı olan Allah'ın izni ve adıyla kesilebilir. Allah'tan başkasının adı anılarak kesilen hayvanlar tıbbi değil, doğrudan itikadi ve manevi sebeple murdar/haram hükmündedir. En'âm 6/121 ayeti uyarınca kasten Besmele çekilmeden kesilen hayvan da cumhura göre yenmez.",
+            "en": "In accordance with Islamic monotheism (Tawhid), animals may only be slaughtered in the name of Allah. Meat slaughtered invoking any other name is spiritually impure and strictly forbidden. Based on Surah Al-An'am 6:121, intentionally omitting the mention of Allah's name at slaughter also renders the meat unlawful according to the majority of jurists."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/173, Mâide 5/3, En'âm 6/121, En'âm 6/145, Nahl 16/115"
+          ],
+          "source_urls": [
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri",
+            "https://kuran.diyanet.gov.tr/tefsir/Bakara-suresi/180/173-ayet-tefsiri"
+          ]
+        },
+        {
+          "id": "ITEM_01_05",
+          "name": {
+            "tr": "Fal Oklarıyla (Kumar Yoluyla) Paylaşılan Etler ve İhramlı İken Avlanan Kara Hayvanları",
+            "en": "Meat Divided by Divining Arrows (Gambling) and Land Game Hunted While in Ihram"
+          },
+          "arabic_term": "الاستقسام بالأزلام وصيد البر للمحرم (Al-Istiqsam bil-Azlam wa Sayd al-Barr lil-Muhrim)",
+          "ruling": {
+            "tr": "Kesin Haram",
+            "en": "Strictly Haram"
+          },
+          "examples": {
+            "tr": [
+              "Fal okları (ezlâm) veya şans/kumar çekilişleriyle paylaştırılan hayvan etleri",
+              "Hac veya umre için ihrama girmiş kişinin bizzat avladığı veya avlanmasına işaret/yardım ettiği kara av hayvanları"
+            ],
+            "en": [
+              "Meat distributed through pagan divining arrows (azlam) or gambling",
+              "Land game hunted by a pilgrim in the state of Ihram (for Hajj or Umrah) or hunted specifically for them"
+            ]
+          },
+          "explanation": {
+            "tr": "Mâide 5/3 ayeti fal oklarıyla et paylaşımını 'fısk' (yoldan çıkma/kumar) sayarak haram kılmıştır. Mâide 5/95-96 ayetleri ise ihramlı iken deniz avını helal, kara avını ise haram kılmıştır.",
+            "en": "Surah Al-Ma'idah 5:3 forbids dividing meat via divining arrows as an ungodly act of gambling (fisq), and verses 5:95-96 forbid hunting or eating land game caught by or for someone in the sacred state of Ihram."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Mâide 5/3, Mâide 5/90, Mâide 5/95-96"
+          ],
+          "source_urls": [
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/672/3-ayet-tefsiri",
+            "https://en.wikipedia.org/wiki/Islamic_dietary_laws"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_02_PROHIBITED_LAND_ANIMALS_AND_BIRDS",
+      "category_name": {
+        "tr": "2. Sünnet ve Fıkıh İle Haram Kılınan Kara Hayvanları, Kuşlar ve Haşerat",
+        "en": "2. Land Animals, Birds, and Insects Prohibited by the Sunnah and Islamic Jurisprudence"
+      },
+      "category_summary": {
+        "tr": "A'râf 7/157 ayetindeki 'habâis' (pis ve iğrenç şeylerin haram kılınması) ilkesi ve Hz. Peygamber'in (s.a.s.) sahih hadisleriyle etleri ve sütleri yasaklanan kara hayvanları ve kuşlardır.",
+        "en": "Land animals, birds, and creatures whose meat and milk are prohibited based on the Quranic prohibition of 'al-khaba'ith' (impure/repulsive things in Quran 7:157) and authentic Hadiths of Prophet Muhammad (pbuh)."
+      },
+      "items": [
+        {
+          "id": "ITEM_02_01",
+          "name": {
+            "tr": "Köpek Dişi (Azı Dişi) İle Avlanan Yırtıcı Kara Hayvanları",
+            "en": "Predatory Land Animals with Fangs / Canine Teeth"
+          },
+          "arabic_term": "كل ذي ناب من السباع (Kullu Dhi Nab min as-Siba')",
+          "ruling": {
+            "tr": "Haram (Cumhura göre)",
+            "en": "Haram (By consensus of the majority of jurists)"
+          },
+          "examples": {
+            "tr": [
+              "Aslan (Lion), Kaplan (Tiger), Leopar / Pars (Leopard), Panter (Panther), Çita (Cheetah)",
+              "Kurt (Wolf), Çakal (Jackal), Ayı (Bear)",
+              "Köpek (Dog), Evcil ve Yabani Kedi (Cat)",
+              "Maymun (Monkey / Ape), Fil (Elephant)",
+              "Domuz dışındaki diğer pençeli/azı dişli etçiller: Gelincik (Weasel), Sansar (Marten), Porsuk (Badger), Sincap (Squirrel - Hanefi'de mekruh/haram)",
+              "Mezhep Farkı Olanlar: Tilki (Fox) ve Sırtlan (Hyena) — Hanefi ve Maliki'de haram/mekruh; Şafii ve Hanbeli mezheplerinde sırtlan (ve Şafii'de tilki) helal sayılmıştır"
+            ],
+            "en": [
+              "Lion, Tiger, Leopard, Panther, Cheetah",
+              "Wolf, Jackal, Bear",
+              "Dog, Domestic and Wild Cat",
+              "Monkey / Ape, Elephant",
+              "Other fanged/clawed mammals: Weasel, Marten, Badger, Squirrel (prohibited/makruh in Hanafi school)",
+              "Madhhab Differences: Fox and Hyena — Haram in the Hanafi school; hyena (and fox in Shafi'i) is considered permissible in Shafi'i and Hanbali jurisprudence"
+            ]
+          },
+          "explanation": {
+            "tr": "Hz. Peygamber (s.a.s.), 'Azı dişi (köpek dişi) bulunan her yırtıcı hayvanın yenmesini yasaklamıştır' (Müslim, Sayd, 15-16). Bu hayvanlar parçalayıcı dişleriyle avlandıkları ve etçil doğaya sahip oldukları için etleri ve sütleri haramdır.",
+            "en": "Prophet Muhammad (pbuh) explicitly forbade eating 'every predatory animal that has fangs/canine teeth' (Sahih Muslim 1933-1934). Because these animals hunt and tear flesh with their fangs, both their meat and milk are forbidden."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: A'râf 7/157",
+            "Hadis: Buhârî, Zebâih, 29; Müslim, Sayd, 15-16 (1933-1934); Ebû Dâvûd, Et'ime, 32 (3803)"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff",
+            "https://halalfoundation.org/what-can-muslim-not-eat/"
+          ]
+        },
+        {
+          "id": "ITEM_02_02",
+          "name": {
+            "tr": "Pençesiyle Avlanan Yırtıcı Kuşlar ve Leş Yiyen Kuşlar",
+            "en": "Birds of Prey with Talons and Carrion-Eating Birds"
+          },
+          "arabic_term": "كل ذي مخلب من الطير (Kullu Dhi Mikhlab min at-Tayr)",
+          "ruling": {
+            "tr": "Haram",
+            "en": "Haram"
+          },
+          "examples": {
+            "tr": [
+              "Kartal (Eagle), Şahin (Hawk / Buzzard), Doğan (Falcon), Atmaca (Sparrowhawk), Kerkenez (Kestrel)",
+              "Akbaba (Vulture), Çaylak (Kite), Baykuş (Owl), Puhu Kuşu (Eagle Owl)",
+              "Leş Kargası / Kuzgun (Carrion Crow / Raven) (Not: Sadece tahıl/ekin yiyen ekin kargası Hanefi ve bazı alimlere göre istisna edilmiştir)",
+              "Yarasa (Bat) ve Leylek (Stork)"
+            ],
+            "en": [
+              "Eagle, Hawk, Falcon, Sparrowhawk, Kestrel",
+              "Vulture, Kite, Owl, Eagle Owl",
+              "Carrion Crow / Raven (Note: Rook/grain-eating crow is exempted by Hanafi and some other jurists)",
+              "Bat and Stork"
+            ]
+          },
+          "explanation": {
+            "tr": "Hz. Peygamber (s.a.s.), pençesiyle avını yakalayıp parçalayan yırtıcı kuşların ve leşle beslenen kuşların etlerinin yenmesini yasaklamıştır.",
+            "en": "Prophet Muhammad (pbuh) prohibited eating all birds of prey that hunt with talons as well as birds that feed on carrion and filth."
+          },
+          "scriptural_evidence": [
+            "Hadis: Müslim, Sayd, 15-16 (1934); Ebû Dâvûd, Et'ime, 32 (3803)"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff",
+            "https://islamqa.info/en/answers/21901/are-insects-halal"
+          ]
+        },
+        {
+          "id": "ITEM_02_03",
+          "name": {
+            "tr": "Evcil Eşek ve Katır (Eti ve Sütü) ile At Eti İhtilafı",
+            "en": "Domesticated Donkeys and Mules (Meat and Milk) & Jurisprudential Rulings on Horse Meat"
+          },
+          "arabic_term": "الحمر الأهلية والبغال (Al-Humur al-Ahliyyah wa al-Bighal)",
+          "ruling": {
+            "tr": "Evcil Eşek ve Katır: Kesin Haram | At Eti: Mezheplere göre ihtilaflı (Ebu Hanife ve Malikilerde mekruh/haram; Şafii, Hanbeli ve İmameyn'de helal)",
+            "en": "Domestic Donkey & Mule: Strictly Haram | Horse Meat: Differing rulings across schools (Makruh/Haram in Abu Hanifa & Maliki views; Halal in Shafi'i, Hanbali, and Abu Yusuf/Muhammad views)"
+          },
+          "examples": {
+            "tr": [
+              "Evcil eşek eti ve eşek sütü (Haram - Not: Yabani eşek / zebra ise helaldir)",
+              "Katır eti (Eşek ile atın melezi olduğu için eşek hükmüne tabi olup haramdır)",
+              "At eti ve kısrak sütü/kımız (İmam Ebu Hanife ve Maliki mezhebine göre tenzihen/tahrimen mekruh veya haram; Şafii, Hanbeli, İmam Ebu Yusuf ve İmam Muhammed'e göre helaldir; ancak kımız alkolleşmiş/sarhoş edici ise ittifakla haramdır)"
+            ],
+            "en": [
+              "Domesticated donkey meat and donkey milk (Haram - Note: Wild ass / zebra is halal)",
+              "Mule meat (Haram, as it is the offspring of a donkey)",
+              "Horse meat (Makruh/prohibited according to Imam Abu Hanifa and the Maliki school; permissible/mubah according to Shafi'i, Hanbali, Imam Abu Yusuf, and Imam Muhammad; fermented intoxicating kumis is haram by consensus)"
+            ]
+          },
+          "explanation": {
+            "tr": "Hayber Gazvesi'nde Hz. Peygamber (s.a.s.) evcil eşek etlerinin yenmesini kesin olarak yasaklamıştır. Hayvanların sütünün hükmü etine tabi olduğundan (zaruri ve alternatifsiz tıbbi durumlar hariç) eşek sütü içmek de caiz değildir.",
+            "en": "During the Battle of Khaybar, the Prophet (pbuh) explicitly prohibited the meat of domesticated donkeys. Because the ruling on an animal's milk follows the ruling on its meat, donkey milk is also impermissible except under strict, irreplaceable medical necessity (darurah)."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Nahl 16/8",
+            "Hadis: Buhârî, Megâzî, 38; Müslim, Nikâh, 29; Sayd, 23-30"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/esek-sutunun-tedavi-maksatli-icilmesi-caiz-midir/0193c42d-aac4-7015-24b6-9bdf63f7fd17",
+            "https://kurul.diyanet.gov.tr/tr/fetva/at-eti-helal-midir/0193c42d-99ef-7a0a-deee-39e86f92e7fb"
+          ]
+        },
+        {
+          "id": "ITEM_02_04",
+          "name": {
+            "tr": "Haşerat, Böcekler, Sürüngenler, Kemirgenler ve Amfibiler (Habâis)",
+            "en": "Insects, Vermin, Reptiles, Rodents, and Amphibians (Al-Hasharat & Al-Khaba'ith)"
+          },
+          "arabic_term": "الحشرات والخبائث (Al-Hasharat wa al-Khaba'ith)",
+          "ruling": {
+            "tr": "Haram (Çekirge istisnası hariç)",
+            "en": "Haram (With the exception of locusts)"
+          },
+          "examples": {
+            "tr": [
+              "Sürüngenler: Yılan (Snake), Kertenkele (Lizard), Bukalemun (Chameleon), Kara ve Su Kaplumbağası (Turtle / Tortoise), İguana",
+              "Eklembacaklılar ve Böcekler: Akrep (Scorpion), Örümcek (Spider), Sinek (Fly), Sivrisinek (Mosquito), Hamamböceği (Cockroach), Karınca (Ant), Arı (Bee), Eşek Arısı (Wasp), Bokböceği (Dung beetle), Kurtçuk/Solucan (Worm/Maggot), Kene (Tick), Bit/Pire (Louse/Flea) — (Not: Çekirge / Locust hadisle helal kılınmıştır)",
+              "Kemirgenler ve Küçük Memeliler: Fare (Mouse), Sıçan (Rat), Köstebek (Mole), Kirpi (Hedgehog - Hanefi ve Hanbeli'de haram/mekruh; Şafii ve Maliki'de caiz), Gelincik (Weasel)",
+              "Amfibiler ve Yumuşakçalar: Kurbağa (Frog / Toad), Kara Salyangozu (Land Snail - Hanefi, Şafii ve Hanbeli'de haram; Maliki'de haşlama/kesimle caiz görüşü vardır)"
+            ],
+            "en": [
+              "Reptiles: Snakes, Lizards, Chameleons, Land Tortoises and Turtles, Iguanas",
+              "Insects & Arachnids: Scorpions, Spiders, Flies, Mosquitoes, Cockroaches, Ants, Bees, Wasps, Dung Beetles, Worms/Maggots, Ticks, Lice, Fleas — (Note: Locusts are explicitly halal by Hadith)",
+              "Rodents & Small Mammals: Mice, Rats, Moles, Hedgehogs (prohibited in Hanafi and Hanbali schools), Weasels",
+              "Amphibians & Land Mollusks: Frogs, Toads, Land Snails (prohibited in Hanafi, Shafi'i, and Hanbali schools; permitted in Maliki school)"
+            ]
+          },
+          "explanation": {
+            "tr": "Kur'an-ı Kerim'in 'habâis' (pis, iğrenç ve tabiatı selimenin tiksindiği şeyler - A'râf 7/157) olarak nitelendirdiği haşerat, sürüngenler, fare ve akrep gibi hayvanlarla kurbağanın öldürülmesini ve yenmesini yasaklayan hadisler uyarınca çekirge dışındaki böcek ve haşeratın yenmesi haramdır.",
+            "en": "Under Surah Al-A'raf 7:157 prohibiting 'al-khaba'ith' (repulsive and impure things) and Hadiths forbidding the consumption of vermin (fawasiq) and frogs, all insects (except locusts), reptiles, amphibians, and rodents are haram."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: A'râf 7/157",
+            "Hadis: Buhârî, Bed'ü'l-halk, 16; Müslim, Hac, 66-68; Ebû Dâvûd, Et'ime, 33 (3808) ve Tıb, 11 (Kurbağa yasağı)"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/kara-hayvanlarindan-eti-yenilip-yenilmeyenler-hangileridir/0198bc0e-e91d-75d3-a056-45ee437a90ff",
+            "https://islamqa.info/en/answers/21901/are-insects-halal",
+            "https://halalfoundation.org/halal-and-haram-ingredients-list/"
+          ]
+        },
+        {
+          "id": "ITEM_02_05",
+          "name": {
+            "tr": "Cellâle (Sürekli Necaset / Pislik Yiyerek Beslenen Hayvanlar)",
+            "en": "Jallalah (Animals Fed Primarily on Filth and Impurity)"
+          },
+          "arabic_term": "الجلالة (Al-Jallalah)",
+          "ruling": {
+            "tr": "Temiz yemle karantinaya alınıp arındırılmadan önce: Haram / Tahrimen Mekruh",
+            "en": "Haram / Makruh Tahrimi unless quarantined and fed pure feed until odor/taint disappears"
+          },
+          "examples": {
+            "tr": [
+              "Dışkı, leş veya necis maddelerle beslendiği için etinin ve terinin kokusu değişmiş sığır, koyun, keçi, deve ve tavuk gibi eti normalde helal olan hayvanların eti, sütü ve yumurtası"
+            ],
+            "en": [
+              "Meat, milk, and eggs of otherwise halal livestock or poultry (cattle, sheep, goats, camels, chickens) that feed predominantly on filth, feces, or carrion such that their flesh and sweat acquire a foul odor"
+            ]
+          },
+          "explanation": {
+            "tr": "Hz. Peygamber (s.a.s.) pislik yiyen hayvanların (cellâle) etinin yenmesini ve sütünün içilmesini yasaklamıştır. Ancak bu hayvanlar kesilmeden önce temiz bir yere hapsedilip bir süre (hayvanın cüssesine göre birkaç günden birkaç haftaya kadar) temiz yemle beslenerek kötü kokusu giderilirse etleri, sütleri ve yumurtaları tekrar helal olur.",
+            "en": "The Prophet (pbuh) forbade eating the meat and drinking the milk of 'al-jallalah' (animals that feed on filth). However, if such animals are confined and fed clean, pure fodder until the foul smell and taint disappear from their flesh, their meat, milk, and eggs become halal again."
+          },
+          "scriptural_evidence": [
+            "Hadis: Ebû Dâvûd, Et'ime, 24 (3785); Tirmizî, Et'ime, 24 (1824); İbn Mâce, Et'ime, 18"
+          ],
+          "source_urls": [
+            "https://nek.istanbul.edu.tr/ekos/TEZ/51118.pdf",
+            "https://en.wikipedia.org/wiki/Islamic_dietary_laws"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_03_MARINE_AND_AQUATIC_ANIMALS",
+      "category_name": {
+        "tr": "3. Deniz ve Su Hayvanlarında Haram Olanlar (İttifak Edilenler ve Mezhep İhtilafları)",
+        "en": "3. Prohibited Marine and Aquatic Animals (Consensus Rulings and Madhhab Differences)"
+      },
+      "category_summary": {
+        "tr": "Bütün İslam alimlerine göre balık türleri (pullu/pulsuz tüm gerçek balıklar) helaldir ve kesim şartı aranmaz. Ancak balık dışındaki deniz ürünleri ile hem karada hem suda yaşayan hayvanlar konusunda mezhepler arasında farklı hükümler vardır.",
+        "en": "All Islamic scholars agree that true fish are unconditionally halal without ritual slaughter. However, rulings differ across the four Sunni schools (and Ja'fari jurisprudence) regarding non-fish marine animals and amphibious creatures."
+      },
+      "items": [
+        {
+          "id": "ITEM_03_01",
+          "name": {
+            "tr": "Yırtıcı ve Hem Karada Hem Suda Yaşayan Su Hayvanları (Timsah, Kurbağa, Su Yılanı, Kaplumbağa)",
+            "en": "Predatory and Amphibious Aquatic Creatures (Crocodile, Frog, Sea Snake, Turtle)"
+          },
+          "arabic_term": "الحيوانات البرمائية والمفترسة (Amphibious and Predatory Aquatic Animals)",
+          "ruling": {
+            "tr": "Haram (Hanefi, Şafii ve Hanbeli mezheplerinde ittifakla)",
+            "en": "Haram (By consensus of Hanafi, Shafi'i, and Hanbali schools)"
+          },
+          "examples": {
+            "tr": [
+              "Timsah (Crocodile / Alligator)",
+              "Kurbağa (Frog / Toad)",
+              "Su Yılanı (Sea Snake / Water Snake)",
+              "Deniz ve Tatlı Su Kaplumbağası (Sea Turtle / Terrapin)"
+            ],
+            "en": [
+              "Crocodile and Alligator",
+              "Frog and Toad",
+              "Sea Snake and Water Snake",
+              "Sea Turtle and Freshwater Turtle"
+            ]
+          },
+          "explanation": {
+            "tr": "Timsah yırtıcı dişiyle avlandığı ve hem karada hem suda yaşadığı için; kurbağa, su yılanı ve kaplumbağa ise hem karada hem suda yaşayan 'habâis' (zararlı/iğrenç) türlerden olduğu için Hanefi, Şafii ve Hanbeli alimlerince (ve Maliki'de timsah gibi yırtıcılar) haram kabul edilmiştir.",
+            "en": "Crocodiles (due to predatory fangs and amphibious nature) as well as frogs, water snakes, and turtles (as amphibious creatures classified under al-khaba'ith) are forbidden across Hanafi, Shafi'i, and Hanbali schools."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: A'râf 7/157",
+            "Hadis: Ebû Dâvûd, Tıb, 11 (3871); Müslim, Sayd, 15"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/yengec-istakoz-karides-kalamar-ve-midye-gibi-deniz-urunleri/0198bc12-9106-7f6d-b2d3-2beaa72b6fce",
+            "https://en.wikipedia.org/wiki/Islamic_dietary_laws"
+          ]
+        },
+        {
+          "id": "ITEM_03_02",
+          "name": {
+            "tr": "Balık Dışındaki Deniz Ürünleri (Kabuklular ve Yumuşakçalar - Mezheplere Göre)",
+            "en": "Non-Fish Seafood (Crustaceans and Mollusks - According to Madhhabs)"
+          },
+          "arabic_term": "غير السمك من حيوانات البحر (Non-Fish Marine Creatures)",
+          "ruling": {
+            "tr": "Hanefi Mezhebi: Haram / Tahrimen Mekruh | Şafii, Maliki ve Hanbeli Mezhepleri: Helal (Şafii'de yengeç hariç) | Caferi Mezhebi: Pulsuz balıklar ve kabuklular (karides hariç) haram",
+            "en": "Hanafi School: Haram / Makruh Tahrimi | Shafi'i, Maliki, and Hanbali Schools: Halal (except amphibious crabs in Shafi'i) | Ja'fari School: Scaleless fish and non-fish (except shrimp/prawns) are haram"
+          },
+          "examples": {
+            "tr": [
+              "Yengeç (Crab - Hanefi ve Şafii'de helal değil; Maliki ve Hanbeli'de helal)",
+              "Istakoz (Lobster), Karides / Kerevit (Shrimp / Prawn / Crayfish - Hanefi'de balık sayılmadığı için yenmez, bazı Hanefi alimler karidesi balık kapsamında görmüştür; Şafii, Maliki ve Hanbeli'de helaldir)",
+              "Midye (Mussel), İstiridye (Oyster), Deniz Tarağı (Scallop), Deniz Salyangozu (Sea Snail)",
+              "Kalamar (Squid), Ahtapot (Octopus), Mürekkep Balığı (Cuttlefish)",
+              "Deniz Kestanesi (Sea Urchin), Deniz Hıyarı (Sea Cucumber), Denizanası (Jellyfish)"
+            ],
+            "en": [
+              "Crab (Impermissible in Hanafi and Shafi'i schools; halal in Maliki and Hanbali schools)",
+              "Lobster, Shrimp, Prawn, Crayfish (Impermissible in standard Hanafi position though some Hanafi scholars permit shrimp as fish; halal in Shafi'i, Maliki, and Hanbali schools)",
+              "Mussels, Oysters, Clams, Scallops, Sea Snails",
+              "Squid (Calamari), Octopus, Cuttlefish",
+              "Sea Urchin, Sea Cucumber, Jellyfish"
+            ]
+          },
+          "explanation": {
+            "tr": "Hanefi mezhebine göre deniz hayvanlarından yalnızca 'balık' suretinde olanlar (yılan balığı, kalkan ve köpekbalığı dahil tüm gerçek balıklar) helaldir; balık dışındaki kabuklu ve yumuşakçalar 'habis' sayılarak helal görülmemiştir. Mâlikî, Şâfiî ve Hanbelî mezhepleri ise Mâide 5/96 ayeti ve 'Denizin suyu temiz, ölüsü helaldir' hadisine dayanarak bu deniz ürünlerini helal kabul eder.",
+            "en": "In the Hanafi school, only true 'fish' (including eels, turbot, etc.) are permissible from the sea, while non-fish crustaceans and mollusks are deemed unlawful/makruh tahrimi. Conversely, the Maliki, Shafi'i, and Hanbali schools permit all marine creatures based on Quran 5:96 and the Hadith 'Its water is pure and its dead are halal.'"
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Mâide 5/96, A'râf 7/157",
+            "Hadis: Ebû Dâvûd, Tahâret, 41 (83); Tirmizî, Tahâret, 52"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/yengec-istakoz-karides-kalamar-ve-midye-gibi-deniz-urunleri/0198bc12-9106-7f6d-b2d3-2beaa72b6fce",
+            "https://en.wikipedia.org/wiki/Islamic_dietary_laws"
+          ]
+        },
+        {
+          "id": "ITEM_03_03",
+          "name": {
+            "tr": "Suda Kendiliğinden Ölüp Karnı Üstü Yüzeye Vuran Balık (Tâfî)",
+            "en": "Fish That Died Naturally in Water and Floated Belly-Up (At-Tafi)"
+          },
+          "arabic_term": "السمك الطافي (As-Samak at-Tafi)",
+          "ruling": {
+            "tr": "Hanefi Mezhebi: Tahrimen Mekruh / Yenmez | Şafii, Maliki ve Hanbeli Mezhepleri: Helal (Bozulmamış/zararsız olması şartıyla)",
+            "en": "Hanafi School: Makruh Tahrimi (Impermissible) | Shafi'i, Maliki, and Hanbali Schools: Halal (Provided it is not spoiled or toxic)"
+          },
+          "examples": {
+            "tr": [
+              "Dışsal bir sebep (ağ, olta, sıcak/soğuk şoku, suyun çekilmesi vb.) olmaksızın denizde kendiliğinden ölüp su yüzüne ters vurmuş balıklar"
+            ],
+            "en": [
+              "Fish that died naturally in the water without any external cause (such as nets, hooks, heat/cold shock, or receding water) and floated belly-up to the surface"
+            ]
+          },
+          "explanation": {
+            "tr": "Hanefi mezhebine göre suda hiçbir dış etken olmadan kendiliğinden ölüp suyun yüzüne karnı yukarı gelecek şekilde vuran (tâfî) balık yenmez; ancak ağda, oltada veya suyun çekilmesi/buz tutması gibi bir sebeple ölen balık helaldir. Diğer üç mezhebe göre ise bozulup sağlığa zararlı hale gelmediği sürece her türlü ölü balık helaldir.",
+            "en": "According to the Hanafi school, fish that die naturally in water without an external cause and float belly-up (at-tafi) are not eaten, whereas fish that die in nets, on lines, or due to heat/cold/receding water are halal. The other three Sunni schools consider all dead fish halal unless spoiled."
+          },
+          "scriptural_evidence": [
+            "Hadis: Ebû Dâvûd, Et'ime, 35 (3815); İbn Mâce, Sayd, 9"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/yengec-istakoz-karides-kalamar-ve-midye-gibi-deniz-urunleri/0198bc12-9106-7f6d-b2d3-2beaa72b6fce"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_04_INEDIBLE_ORGANS_OF_HALAL_ANIMALS",
+      "category_name": {
+        "tr": "4. Eti Helal Olan Hayvanların Yenmesi Haram veya Tahrimen Mekruh Olan Organları",
+        "en": "4. Prohibited or Strictly Disliked (Makruh Tahrimi) Organs of Halal-Slaughtered Animals"
+      },
+      "category_summary": {
+        "tr": "Sığır, koyun, keçi, deve gibi eti helal olan ve İslami usule uygun kesilen hayvanların dahi yenmesi dinen yasaklanan (akıtılmış kan haram, diğer 6 kısım Hanefi'de tahrimen mekruh) 7 organı/kısmıdır.",
+        "en": "Seven specific parts and organs of lawfully slaughtered halal livestock (such as cattle, sheep, goats, and camels) that are forbidden or strictly disliked (makruh tahrimi in the Hanafi school) to consume."
+      },
+      "items": [
+        {
+          "id": "ITEM_04_01",
+          "name": {
+            "tr": "Kesilen Helal Hayvanın Yenmeyen 7 Kısmı / Organı",
+            "en": "The 7 Inedible Parts / Organs of a Slaughtered Halal Animal"
+          },
+          "arabic_term": "ما يحرم أكلها من أجزاء الحيوان المأكول (Inedible Parts of Permissible Animals)",
+          "ruling": {
+            "tr": "Akıtılmış Kan: Kesin Haram | Diğer 6 Organ: Hanefi'de Tahrimen Mekruh (Harama Yakın) / Şafii ve Maliki'de koç yumurtası (husye) caizdir",
+            "en": "Flowing Blood: Strictly Haram | Other 6 Organs: Makruh Tahrimi (virtually unlawful) in Hanafi school / Testicles are permissible in Maliki and Shafi'i schools"
+          },
+          "examples": {
+            "tr": [
+              "1. Akıtılmış kan (Flowing blood)",
+              "2. Erkeklik cinsel organı (Penis / الذكر)",
+              "3. Dişilik cinsel organı (Vulva/Vagina / الفرج)",
+              "4. Husyeler / Yumurtalar / Koç yumurtası (Testicles / الأنثيان - Maliki ve Şafii'de caizdir)",
+              "5. İdrar torbası / Mesane (Urinary bladder / المثانة)",
+              "6. Öd kesesi / Safra kesesi (Gallbladder / المرارة)",
+              "7. Bezeler / Guddeler / Lenf yumruları (Glands & lymph nodes / الغدة) ve Dübür (Anus)"
+            ],
+            "en": [
+              "1. Flowing blood (Ad-Dam al-Masfuh)",
+              "2. Male reproductive organ (Penis / Adh-Dhakar)",
+              "3. Female reproductive organ (Vulva / Al-Farj)",
+              "4. Testicles (Al-Unthayan - Permissible in Maliki and Shafi'i schools)",
+              "5. Urinary bladder (Al-Mathanah)",
+              "6. Gallbladder (Al-Mararah)",
+              "7. Glands / Excrescences (Al-Ghuddah) and Anus (Ad-Dubur)"
+            ]
+          },
+          "explanation": {
+            "tr": "Hz. Peygamber'in (s.a.s.) eti yenen hayvanların cinsel organlarının, husyelerinin (yumurtalarının), dübürlerinin, bezelerinin, öd keselerinin ve mesanelerinin yenilmesini uygun görmediği rivayet edilmiştir (Beyhakî, es-Sünenü'l-kübrâ, 10/12). Bu organlar insan tabiatının tiksindiği (habâis) kısımlardan olduğu için yenmez.",
+            "en": "Based on the Hadith recorded by Al-Bayhaqi (As-Sunan al-Kubra 10/12), Prophet Muhammad (pbuh) disliked seven parts of an edible sheep: flowing blood, the penis, the vulva, the testicles, the glands, the urinary bladder, and the gallbladder."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: En'âm 6/145 (Akıtılmış kan), A'râf 7/157 (Habâis)",
+            "Hadis: Beyhakî, es-Sünenü'l-kübrâ, 10/12 (19700); İbn Nüceym, el-Bahr, 8/553"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/bir-hayvanin-yenilmeyecek-yerleri-nerelerdir-bu-organlarin/0193c42d-7e8d-731a-2e74-9974f7d95856"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_05_INTOXICANTS_DRINKS_AND_HARMFUL_SUBSTANCES",
+      "category_name": {
+        "tr": "5. İçilmesi ve Tüketilmesi Haram Olan İçecekler, Alkollü Maddeler, Uyuşturucular ve Zehirler",
+        "en": "5. Prohibited Beverages, Alcoholic Intoxicants, Narcotics, and Harmful Substances"
+      },
+      "category_summary": {
+        "tr": "İslam'ın beş temel gayesinden (zarûriyyât-ı hamse) ikisi olan 'aklın korunması' (hıfzü'l-akl) ve 'canın/sağlığın korunması' (hıfzü'n-nefs) ilkeleri uyarınca sarhoşluk veren, aklı örten ve bedene zarar veren her türlü içecek ve madde haramdır.",
+        "en": "Under the higher objectives of Islamic law (Maqasid ash-Shari'ah) to preserve the intellect (hifz al-'aql) and preserve life/health (hifz an-nafs), all intoxicants, narcotics, and harmful or poisonous substances are strictly forbidden."
+      },
+      "items": [
+        {
+          "id": "ITEM_05_01",
+          "name": {
+            "tr": "Alkollü İçecekler (Hamr / İçki Çeşitlerinin Tamamı)",
+            "en": "Alcoholic Beverages (Khamr / All Fermented and Distilled Intoxicants)"
+          },
+          "arabic_term": "الخمر والمسكرات (Al-Khamr wa al-Muskirat)",
+          "ruling": {
+            "tr": "Kesin Haram (Çoğu sarhoş edenin azı da haramdır)",
+            "en": "Strictly Haram (Whatever intoxicates in large amounts, a small amount of it is also haram)"
+          },
+          "examples": {
+            "tr": [
+              "Şarap (Wine - kırmızı, beyaz, roze, meyve şarapları, şampanya)",
+              "Bira (Beer - arpa, buğday, malt biraları)",
+              "Damıtılmış yüksek alkollü içkiler: Rakı, Viski (Whiskey), Votka (Vodka), Cin (Gin), Rom (Rum), Tekila (Tequila), Konyak (Cognac), Brendi (Brandy), Likör (Liqueur)",
+              "Alkolleşmiş ve sarhoş edici nitelik kazanmış elma şarabı (Hard Cider), bal şarabı (Mead), pirinç şarabı (Sake) ve fermente kımız"
+            ],
+            "en": [
+              "Wine (red, white, rosé, sparkling wine, champagne, fruit wines)",
+              "Beer (lager, ale, stout, malt liquor)",
+              "Distilled spirits and liquors: Raki, Whiskey, Vodka, Gin, Rum, Tequila, Cognac, Brandy, Liqueurs",
+              "Intoxicating fermented beverages: Hard Cider, Mead, Sake, and alcoholic fermented Kumis"
+            ]
+          },
+          "explanation": {
+            "tr": "Mâide 5/90-91 ayetlerinde içki (hamr) 'şeytan işi bir pislik (rics)' olarak nitelendirilip kesin biçimde yasaklanmıştır. Hz. Peygamber (s.a.s.), 'Sarhoşluk veren her şey hamrdır ve her hamr haramdır' (Müslim, Eşribe, 73) ve 'Çoğu sarhoşluk veren şeyin azı da haramdır' (Ebû Dâvûd, Eşribe, 5; Tirmizî, Eşribe, 3) buyurmuştur.",
+            "en": "Surah Al-Ma'idah 5:90-91 condemns khamr (intoxicants) as an 'abomination of Satan's handiwork' and commands believers to abstain completely. Prophet Muhammad (pbuh) declared: 'Every intoxicant is khamr, and every khamr is haram' (Sahih Muslim) and 'Whatever intoxicates in large quantities, a small quantity of it is also haram' (Sunan Abi Dawud, Tirmidhi)."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/219, Nisâ 4/43, Mâide 5/90-91",
+            "Hadis: Buhârî, Eşribe, 1-6; Müslim, Eşribe, 7, 73-74; Ebû Dâvûd, Eşribe, 5; Tirmizî, Eşribe, 3"
+          ],
+          "source_urls": [
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/759/90-91-ayet-tefsiri",
+            "https://kurul.diyanet.gov.tr/tr/fetva/uretim-asamalarinda-sentetik-alkol-kullaniminin-hukmu-nedir/0193c42d-b6f3-750b-466b-3e8585270328"
+          ]
+        },
+        {
+          "id": "ITEM_05_02",
+          "name": {
+            "tr": "Pişirme veya İmalat Aşamasında Alkollü İçki Katılmış Yemek ve Tatlılar",
+            "en": "Foods, Sauces, and Desserts Cooked or Prepared with Alcoholic Beverages"
+          },
+          "arabic_term": "الأطعمة المطبوخة بالخمر (Foods Cooked with Khamr)",
+          "ruling": {
+            "tr": "Haram",
+            "en": "Haram"
+          },
+          "examples": {
+            "tr": [
+              "Şarap soslu et, tavuk veya makarna yemekleri (Coq au vin, Boeuf bourguignon, şaraplı risotto vb.)",
+              "Likörlü, romlu veya konyaklı çikolatalar, pastalar ve tatlılar (alkollü tiramisu, romlu kek vb.)",
+              "Bira bulamacına batırılarak kızartılan gıdalar (beer-battered foods)",
+              "Tamamen sirkeye dönüşmemiş (istihale geçirmemiş) alkollü şarap/malt karışımları"
+            ],
+            "en": [
+              "Meat, poultry, or pasta dishes cooked with wine (e.g., Coq au vin, Beef bourguignon, wine risotto)",
+              "Chocolates, cakes, and desserts containing liqueur, rum, or brandy (e.g., liqueur chocolates, alcoholic tiramisu)",
+              "Beer-battered fried foods",
+              "Wine or malt mixtures that have not fully transformed into vinegar (istihalah)"
+            ]
+          },
+          "explanation": {
+            "tr": "Din İşleri Yüksek Kurulu'na göre, gıdanın pişirilmesiyle alkolün bir kısmı buharlaşsa bile tamamen yok olmamakta ve dinen necis (pis) sayılan şarap/içki yemeğe karışmaktadır. Bu nedenle imalat veya pişirme aşamasında ya da sonrasında gıdalara alkollü içki ilave edilmesi ve bunların tüketilmesi caiz değildir. (Not: Şarabın tamamen sirkeye dönüşmesi ise istihale sayıldığından doğal üzüm/elma sirkesi helaldir; meyve ve ekmekte doğal oluşan binde 1-5 oranındaki eser alkol de haram değildir.)",
+            "en": "According to the High Board of Religious Affairs (Diyanet), even if cooking evaporates part of the alcohol, it does not eliminate it completely, and the impure alcoholic beverage contaminates the food. Therefore, adding wine or liquor during or after cooking is haram. (Note: Wine that has completely transformed into vinegar via istihalah is halal, as are trace amounts of natural ethanol naturally present in fruits or bread.)"
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Mâide 5/90",
+            "Hadis: Müslim, Eşribe, 74; Ebû Dâvûd, Eşribe, 5"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/yiyecekler-pisirilirken-sarap-gibi-alkollu-iceceklerin/0193c42d-a9f2-7fad-8f08-bf81a23dd46e",
+            "https://kurul.diyanet.gov.tr/tr/fetva/uretim-asamalarinda-sentetik-alkol-kullaniminin-hukmu-nedir/0193c42d-b6f3-750b-466b-3e8585270328"
+          ]
+        },
+        {
+          "id": "ITEM_05_03",
+          "name": {
+            "tr": "İçki Olarak Tüketilen Sentetik Alkol, İspirto ve Kolonya",
+            "en": "Synthetic Alcohol, Rubbing Alcohol, and Cologne Consumed as a Beverage"
+          },
+          "arabic_term": "الكحول الصناعي عند شربه للإسكار (Synthetic Alcohol Consumed for Intoxication)",
+          "ruling": {
+            "tr": "İçilmesi: Kesin Haram (Temizlikte ve dezenfektan olarak haricen kullanımı caizdir)",
+            "en": "Drinking/Ingesting: Strictly Haram (External use for cleaning and disinfection is permissible)"
+          },
+          "examples": {
+            "tr": [
+              "Saf etil alkol (etanol) veya metil alkolün (metanol) içki olarak içilmesi",
+              "İspirto, kolonya veya dezenfektan sıvıların sarhoş olmak amacıyla içilmesi"
+            ],
+            "en": [
+              "Drinking pure ethyl alcohol (ethanol) or methyl alcohol (methanol) as an intoxicant",
+              "Ingesting methylated spirits, cologne, or sanitizing liquids"
+            ]
+          },
+          "explanation": {
+            "tr": "Temizlik veya sanayi amacıyla üretilen sentetik alkol, kolonya ve ispirtonun haricen temizlikte kullanılması caiz olmakla birlikte, bunların içilmesi hem sarhoş edici hem de zehirleyici/öldürücü olduğu için kesin olarak haramdır.",
+            "en": "While synthetic alcohol, cologne, and rubbing alcohol are permissible for external cleaning and sanitation, drinking them is strictly haram due to both intoxication and severe toxicity."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/195, Mâide 5/90",
+            "Hadis: Buhârî, Edep, 80; Müslim, Eşribe, 73"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/uretim-asamalarinda-sentetik-alkol-kullaniminin-hukmu-nedir/0193c42d-b6f3-750b-466b-3e8585270328"
+          ]
+        },
+        {
+          "id": "ITEM_05_04",
+          "name": {
+            "tr": "Uyuşturucu, Keyif Verici ve Aklı Örten Maddeler (Müskirat ve المخدرات)",
+            "en": "Narcotics, Mind-Altering Drugs, and Hallucinogens (Al-Mukhaddirat)"
+          },
+          "arabic_term": "المخدرات والمفترات (Al-Mukhaddirat wa al-Mufattirat)",
+          "ruling": {
+            "tr": "Kesin Haram (Tıbbi zaruret ve uzman doktor kontrolündeki narkoz/ağrı kesiciler hariç)",
+            "en": "Strictly Haram (Except under strict medical necessity such as surgical anesthesia or prescribed clinical analgesia)"
+          },
+          "examples": {
+            "tr": [
+              "Esrar / Hint keneviri (Cannabis / Marijuana / Hashish)",
+              "Eroin (Heroin), Kokain (Cocaine), Afyon (Opium), Morfin (keyif amaçlı)",
+              "Sentetik uyuşturucular: Metamfetamin, Ekstazi (MDMA), LSD, Bonzai, Captagon",
+              "Uçucu ve uyuşturucu kimyasallar (tiner, bali vb. maddelerin keyif/uyuşturma amaçlı kullanımı)",
+              "Yemen otu / Gat (Khat) ve halüsinojen mantarlar (Magic mushrooms)"
+            ],
+            "en": [
+              "Cannabis / Marijuana / Hashish",
+              "Heroin, Cocaine, Opium, Recreational Morphine",
+              "Synthetic drugs: Methamphetamine, Ecstasy (MDMA), LSD, Synthetic cannabinoids, Captagon",
+              "Inhalants and volatile solvents abused for intoxication",
+              "Khat and psychedelic/hallucinogenic mushrooms"
+            ]
+          },
+          "explanation": {
+            "tr": "Sıvı veya katı olsun, yenilen, içilen, dumanı çekilen veya enjekte edilen tüm uyuşturucu maddeler aklı örttüğü, iradeyi yok ettiği ve beden/ruh sağlığını tahrip ettiği için içki (hamr) hükmünde veya ondan daha ağır bir haram olarak kabul edilmiştir.",
+            "en": "All solid, liquid, smoked, or injected narcotics that cloud the mind, impair judgment, and destroy physical and mental health fall under the prohibition of khamr and self-destruction, making them strictly haram."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/195 ('Kendi ellerinizle kendinizi tehlikeye atmayın'), Nisâ 4/29, Mâide 5/90-91",
+            "Hadis: Ebû Dâvûd, Eşribe, 5 ('Resûlullah sarhoşluk veren ve gevşeklik/uyuşukluk yapan her maddeden nehyetti' - 3686)"
+          ],
+          "source_urls": [
+            "https://kuran.diyanet.gov.tr/tefsir/M%C3%A2ide-suresi/759/90-91-ayet-tefsiri",
+            "https://halalfoundation.org/what-can-muslim-not-eat/"
+          ]
+        },
+        {
+          "id": "ITEM_05_05",
+          "name": {
+            "tr": "Zehirler, İnsan Sağlığına Kesin Zarar Veren Maddeler ve Sigara/Tütün Ürünleri",
+            "en": "Poisons, Toxic Substances, and Tobacco / Smoking Products"
+          },
+          "arabic_term": "السموم والمضرات بالبدن والدخان (Poisons, Bodily Harmfuls, and Tobacco)",
+          "ruling": {
+            "tr": "Zehir ve Toksik Maddeler: Kesin Haram | Sigara ve Tütün Ürünleri: Haram / Tahrimen Mekruh (Diyanet ve çağdaş fetva kurullarına göre haram/caiz değil)",
+            "en": "Poisons & Toxins: Strictly Haram | Cigarettes & Tobacco: Haram / Makruh Tahrimi (Ruled impermissible/haram by Diyanet and contemporary fatwa councils)"
+          },
+          "examples": {
+            "tr": [
+              "Öldürücü veya felç edici her türlü bitkisel, hayvansal ve kimyasal zehir (zehirli mantarlar, baldıran, siyanür, arsenik vb.)",
+              "Beden sağlığına zarar veren toprak, kil, çamur veya bozulmuş/küflenmiş/kokuşmuş gıdaların yenmesi",
+              "Sigara, puro, nargile, elektronik sigara ve tütün ürünleri (Diyanet Din İşleri Yüksek Kurulu: 'Pek çok zararı bünyesinde barındıran sigarayı içmek caiz değildir, günümüzde birçok alim ve fetva meclisi haram olduğu görüşündedir')"
+            ],
+            "en": [
+              "Lethal or debilitating plant, animal, and chemical poisons (poisonous mushrooms, hemlock, cyanide, arsenic, etc.)",
+              "Eating harmful earth, clay, mud, or putrid/spoiled/toxic food",
+              "Cigarettes, cigars, hookah/shisha, e-cigarettes/vapes, and tobacco products (Ruled impermissible/haram by Diyanet and major contemporary fatwa councils due to proven lethal health harms)"
+            ]
+          },
+          "explanation": {
+            "tr": "İslam'da kişinin kendi bedenine zarar vermesi ve sağlığını tehlikeye atması yasaklanmıştır (Bakara 2/195; Nisâ 4/29). Hz. Peygamber 'Zarar vermek de zarara zararla karşılık vermek de yoktur' (İbn Mâce, Ahkâm, 17) buyurmuş ve zehir içerek intihar etmeyi en büyük günahlardan saymıştır.",
+            "en": "Islam strictly prohibits self-harm and endangering one's life and health (Quran 2:195, 4:29). The Prophet (pbuh) stated 'There shall be no harm nor reciprocating harm' (Ibn Majah) and condemned ingesting poison."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/195, Nisâ 4/29, A'râf 7/157",
+            "Hadis: Buhârî, Tıb, 56 (Zehir içme yasağı); İbn Mâce, Ahkâm, 17"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/sigara-icmenin-dini-hukmu-nedir/0193c42d-b845-70df-5e8c-44ed6a000be4"
+          ]
+        },
+        {
+          "id": "ITEM_05_06",
+          "name": {
+            "tr": "Necis (Pis) Sıvılar, Eti Yenmeyen Hayvanların Sütleri ve İnsan Eti/Sütü Hükümleri",
+            "en": "Impure (Najis) Liquids, Milk of Prohibited Animals, and Human Flesh/Milk Rulings"
+          },
+          "arabic_term": "الأعيان النجسة وألبان غير المأكول ولحم الآدمي (Impure Substances, Milk of Prohibited Animals, and Human Flesh)",
+          "ruling": {
+            "tr": "Kesin Haram",
+            "en": "Strictly Haram"
+          },
+          "examples": {
+            "tr": [
+              "İnsan eti ve insan kanı (İnsanın saygınlığı / mükerrem oluşu sebebiyle zaruret halinde dahi insan eti yenmesi ittifakla haramdır)",
+              "İdrar (bevl), dışkı, kusmuk, irin, mezi, vedi gibi dinen necis (pis) sayılan sıvılar ve bunların karıştığı içecekler",
+              "Domuz, eşek, köpek, kedi, aslan, ayı gibi eti yenmeyen hayvanların sütleri",
+              "Emzirme çağı (ilk 2 yaş) dışındaki çocukların ve yetişkinlerin anne sütü / insan sütü içmesi (fıkhen caiz görülmez)"
+            ],
+            "en": [
+              "Human flesh and human blood (Strictly haram by consensus under all circumstances due to the sacred dignity of the human body - karamat al-insan)",
+              "Urine, feces, vomit, pus, and any food or drink contaminated with filth (najasah)",
+              "Milk of animals whose meat is forbidden to eat (such as pig, donkey, dog, cat, lion, bear)",
+              "Consumption of human breast milk by adults or children past the nursing age (2 years)"
+            ]
+          },
+          "explanation": {
+            "tr": "İsrâ 17/70 ayetinde insanın mükerrem (saygın ve dokunulmaz) kılındığı bildirildiğinden insanın etinin, kanının veya parçalarının tüketilmesi mutlak olarak haramdır. Ayrıca fıkıh kaidesi gereği 'Hayvanların sütünün hükmü etlerine tâbidir'; eti yenmeyen hayvanın sütü de içilmez.",
+            "en": "Because human beings are honored and inviolable in Islam (Surah Al-Isra 17:70), consuming human flesh or blood is unconditionally haram. Furthermore, by juristic consensus, the ruling on an animal's milk follows the ruling on its flesh; thus milk from any prohibited animal is haram."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: İsrâ 17/70, A'râf 7/157",
+            "Fıkıh Kaynağı: Merğînânî, el-Hidâye, IV, 78; İbn Kudâme, el-Muğnî, IX, 425"
+          ],
+          "source_urls": [
+            "https://kurul.diyanet.gov.tr/tr/fetva/esek-sutunun-tedavi-maksatli-icilmesi-caiz-midir/0193c42d-aac4-7015-24b6-9bdf63f7fd17"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_06_HARAM_FOOD_ADDITIVES_AND_INGREDIENTS",
+      "category_name": {
+        "tr": "6. Haram Kaynaklı Gıda Katkı Maddeleri ve İşlenmiş Gıda Bileşenleri",
+        "en": "6. Prohibited Food Additives and Processed Food Ingredients Derived from Haram Sources"
+      },
+      "category_summary": {
+        "tr": "Modern gıda sanayiinde kullanılan, ancak domuzdan, İslami usule göre kesilmemiş hayvanlardan, böceklerden veya alkollü içkilerden elde edildiği için haram olan katkı maddeleri ve bileşenlerdir.",
+        "en": "Industrial food additives, enzymes, emulsifiers, and colorings that are forbidden when derived from swine, non-halal slaughtered animals, insects, or alcoholic beverages."
+      },
+      "items": [
+        {
+          "id": "ITEM_06_01",
+          "name": {
+            "tr": "Domuz veya Gayri-Helal Hayvan Kaynaklı Jelatin (E441)",
+            "en": "Gelatin Derived from Pork or Non-Halal Slaughtered Animals (E441)"
+          },
+          "arabic_term": "الجيلاتين المستخرج من الخنزير أو غير المذكى (Porcine or Non-Zabiha Gelatin)",
+          "ruling": {
+            "tr": "Haram (Helal kesim sığır veya balık jelatini ile bitkisel agar-agar/pektin ise helaldir)",
+            "en": "Haram (Gelatin from halal-slaughtered cattle or fish, as well as plant-based agar-agar/pectin, is halal)"
+          },
+          "examples": {
+            "tr": [
+              "Domuz derisi veya kemiğinden üretilen jelatin içeren yumuşak şekerlemeler (jelibon, marshmallow), pastalar, yoğurtlar, dondurmalar ve ilaç kapsülleri",
+              "İslami usule göre kesilmemiş sığırların deri ve kemiklerinden elde edilen jelatin"
+            ],
+            "en": [
+              "Gummy candies, marshmallows, desserts, yogurts, ice creams, and pharmaceutical capsules containing porcine gelatin",
+              "Gelatin extracted from hides or bones of cattle not slaughtered according to Islamic law"
+            ]
+          },
+          "explanation": {
+            "tr": "Din İşleri Yüksek Kurulu'nun değerlendirmesine göre jelatin üretimi tam bir kimyasal dönüşüm (istihale) değil, kolajen proteininin ayrıştırılması işlemidir. Bu sebeple kolajenin kaynağı olan hayvan domuz ise veya İslami usulle kesilmemiş bir hayvan ise ondan üretilen jelatin de haramdır.",
+            "en": "According to the High Board of Religious Affairs (Diyanet) and international halal certification bodies (AHF), gelatin extraction is a physical/partial separation rather than a complete chemical transformation (istihalah). Thus, gelatin derived from pigs or non-halal slaughtered animals retains the haram ruling of its source."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/173, Mâide 5/3, En'âm 6/145"
+          ],
+          "source_urls": [
+            "https://oyeteknoloji.com/tr/blog/is-gelatin-halal/",
+            "https://halalfoundation.org/what-can-muslim-not-eat/",
+            "https://halalfoundation.org/halal-and-haram-ingredients-list/"
+          ]
+        },
+        {
+          "id": "ITEM_06_02",
+          "name": {
+            "tr": "Karmin / Koşnil Böceği Boyası (E120)",
+            "en": "Carmine / Cochineal Insect Red Dye (E120 / Carminic Acid)"
+          },
+          "arabic_term": "الكارمين / الدودة القرمزية (Carmine / Cochineal - E120)",
+          "ruling": {
+            "tr": "Haram / Caiz Değil (Hanefi, Şafii ve Hanbeli fıkhına ve uluslararası helal sertifikasyon kuruluşlarının çoğunluğuna göre)",
+            "en": "Haram / Impermissible (According to Hanafi, Shafi'i, and Hanbali principles on insects and major halal certification bodies)"
+          },
+          "examples": {
+            "tr": [
+              "Dişi koşnil (Dactylopius coccus) böceklerinin kurutulup ezilmesiyle elde edilen E120 (Karmin / Karminik asit) kodlu kırmızı gıda boyası",
+              "Karmin (E120) içeren çilekli/meyveli yoğurtlar, sütler, gazlı içecekler, şekerlemeler, reçeller ve salam/sosis ürünleri"
+            ],
+            "en": [
+              "Red food coloring E120 (Carmine / Cochineal extract / Carminic acid) produced by crushing dried cochineal insects",
+              "Fruit-flavored yogurts, milks, candies, sodas, jams, and processed meats colored with E120"
+            ]
+          },
+          "explanation": {
+            "tr": "Çekirge dışındaki böceklerin ve haşeratın yenmesi İslam alimlerinin çoğunluğuna göre haram olduğundan, koşnil böceğinden elde edilen E120 (Karmin) boyasının gıda ve içeceklerde tüketilmesi de helal sertifikasyon kuruluşları ve çoğu fıkıh kurulunca caiz görülmemektedir.",
+            "en": "Because insects (other than locusts) are prohibited for consumption by the majority of Islamic jurists, red dye E120 extracted from crushed cochineal insects is classified as haram by standard halal certification authorities."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: A'râf 7/157"
+          ],
+          "source_urls": [
+            "https://halalfoundation.org/what-can-muslim-not-eat/",
+            "https://halalfoundation.org/halal-and-haram-ingredients-list/",
+            "https://islamqa.info/en/answers/21901/are-insects-halal"
+          ]
+        },
+        {
+          "id": "ITEM_06_03",
+          "name": {
+            "tr": "Haram Kaynaklı Peynir Mayası (Rennet), Pepsin, Lipaz ve Hayvansal Katkı Maddeleri",
+            "en": "Non-Halal Rennet, Porcine Pepsin, Lipase, and Haram Animal-Derived Emulsifiers"
+          },
+          "arabic_term": "المنفحة والإنزيمات والمضافات الحيوانية المحرمة (Non-Halal Rennet, Enzymes, and Animal Additives)",
+          "ruling": {
+            "tr": "Domuz veya İnsan Kaynaklı İse: Kesin Haram | Gayri-Helal Kesim Hayvan Kaynaklı İse: Şafii, Maliki, Hanbeli ve Ebu Yusuf/Muhammed'e göre haram (Ebu Hanife'ye göre şirden mayası istisnası vardır)",
+            "en": "Porcine or Human Source: Strictly Haram | Non-Halal Slaughtered Animal Source: Haram according to Shafi'i, Maliki, Hanbali, and Abu Yusuf/Muhammad"
+          },
+          "examples": {
+            "tr": [
+              "Domuz midesinden elde edilen Pepsin enzimi ve domuz Lipazı ile üretilen peynirler",
+              "Domuz yağından veya İslami usulle kesilmemiş hayvan yağlarından elde edilen Mono ve Digliseridler (E471), Lesitin (E322), Gliserol/Gliserin (E422) ve Stearik Asit (E570) (Bitkisel kaynaklı olanları helaldir)",
+              "İnsan saçından veya domuz kılından üretilen L-Sistein (E920 - un işleme ajanı)",
+              "Haram kaynaklı peynir altı suyu tozu (Whey powder)"
+            ],
+            "en": [
+              "Cheeses made with porcine pepsin, porcine lipase, or rennet from non-halal slaughtered calves",
+              "Mono- and diglycerides (E471), Lecithin (E322), Glycerol/Glycerine (E422), and Stearic Acid (E570) when derived from pork fat or non-halal tallow (plant-derived versions are halal)",
+              "L-Cysteine (E920 dough conditioner) derived from human hair or hog bristles",
+              "Whey powder sourced from cheese curdled with porcine or non-halal enzymes"
+            ]
+          },
+          "explanation": {
+            "tr": "İşlenmiş gıdalarda kullanılan enzimler, emülgatörler ve amino asitler bitkisel, mikrobiyal veya İslami usulle kesilmiş helal hayvan kaynaklı ise helaldir; ancak domuzdan, insan saçından veya usulüne uygun kesilmemiş hayvanların et/yağ dokularından elde edilmişse haramdır.",
+            "en": "Enzymes, emulsifiers, and amino acids used in processed foods are halal when derived from plants, microbial cultures, or halal-slaughtered animals, but are haram when sourced from pigs, human hair, or non-halal slaughtered animal fats."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/168, 173; Mâide 5/3; İsrâ 17/70"
+          ],
+          "source_urls": [
+            "https://halalfoundation.org/what-can-muslim-not-eat/",
+            "https://halalfoundation.org/halal-and-haram-ingredients-list/"
+          ]
+        }
+      ]
+    },
+    {
+      "category_id": "CAT_07_HARAM_LI_GHAYRIHI_AND_CONSUMPTION_MANNER",
+      "category_name": {
+        "tr": "7. Elde Ediliş Yolu veya Tüketim Şekli Sebebiyle Haram Olanlar (Haram li-Gayrihî)",
+        "en": "7. Foods and Drinks Prohibited Due to Unlawful Acquisition or Manner of Consumption (Haram li-Ghayrihi)"
+      },
+      "category_summary": {
+        "tr": "Maddenin bizzat kendisi temiz ve helal (tayyib) olduğu halde, haksız kazanç yoluyla elde edilmesi veya İslam'ın yasakladığı bir biçimde tüketilmesi nedeniyle haram olan yiyecek ve içeceklerdir.",
+        "en": "Foods and beverages that are intrinsically pure and lawful (halal li-dhatihi), but become forbidden (haram li-ghayrihi) because they were acquired through unlawful means or consumed in a prohibited manner."
+      },
+      "items": [
+        {
+          "id": "ITEM_07_01",
+          "name": {
+            "tr": "Haksız Kazanç, Hırsızlık, Gasp, Rüşvet, Faiz ve Kumar İle Elde Edilen Gıdalar",
+            "en": "Foods and Drinks Acquired Through Theft, Usurpation, Bribery, Usury (Riba), or Gambling"
+          },
+          "arabic_term": "المحرم لغيره لكسبه بطريق غير مشروع (Haram li-Ghayrihi due to Unlawful Acquisition)",
+          "ruling": {
+            "tr": "Kesin Haram (Haram li-gayrihî)",
+            "en": "Strictly Haram (Haram li-ghayrihi)"
+          },
+          "examples": {
+            "tr": [
+              "Çalınmış veya gasp edilmiş ekmek, su, meyve, et vb. her türlü gıda",
+              "Sahibinin izni ve rızası olmadan bahçesinden, tarlasından veya sofrasından alınan yiyecek ve içecekler",
+              "Rüşvet, faiz (ribâ), kumar, ölçü ve tartıda hile, karaborsacılık veya batıl akitlerle kazanılan parayla alınan gıdalar"
+            ],
+            "en": [
+              "Stolen or usurped bread, water, fruit, meat, or any other foodstuff",
+              "Food or drink taken from someone's orchard, field, or table without the owner's consent",
+              "Food purchased directly with proceeds of bribery, usury (riba), gambling, fraud in weights and measures, or illicit trade"
+            ]
+          },
+          "explanation": {
+            "tr": "Bakara 2/188 ve Nisâ 4/29 ayetlerinde 'Mallarınızı aranızda batıl (haksız) yollarla yemeyin' buyrulmuştur. Aslında helal olan bir elma veya ekmek, çalıntı veya gasp yoluyla elde edildiğinde 'haram li-gayrihî' olarak haram olur.",
+            "en": "Surah Al-Baqarah 2:188 and Surah An-Nisa 4:29 strictly forbid consuming one another's wealth unjustly. Even if a food item like bread or fruit is intrinsically halal, acquiring it through theft, usurpation, or illicit wealth renders its consumption haram (haram li-ghayrihi)."
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: Bakara 2/188, Nisâ 4/29",
+            "Hadis: Müslim, Birr, 32; Buhârî, Mezâlim, 3"
+          ],
+          "source_urls": [
+            "https://www.diyanethaber.com.tr/haramin-cesitleri-nelerdir"
+          ]
+        },
+        {
+          "id": "ITEM_07_02",
+          "name": {
+            "tr": "Altın ve Gümüş Kaplardan Yeme ve İçme ile İsraf/Tıkanma Derecesinde Aşırı Tüketim",
+            "en": "Eating and Drinking from Gold and Silver Vessels & Wasteful/Harmful Overeating (Israf)"
+          },
+          "arabic_term": "الأكل والشرب في آنية الذهب والفضة والإسراف (Gold/Silver Vessels and Extravagance)",
+          "ruling": {
+            "tr": "Fiil Olarak Haram",
+            "en": "Haram as an Act of Consumption"
+          },
+          "examples": {
+            "tr": [
+              "Altın veya gümüş tabak, kase, bardak, kadeh, çatal ve kaşık kullanarak yemek yemek ve su/içecek içmek",
+              "Mideye ve sağlığa kesin zarar verecek (tıkanma/hastalanma) derecede aşırı yemek ve içmek",
+              "Yiyecek ve içecekleri çöpe atarak veya bozulmaya terk ederek israf etmek"
+            ],
+            "en": [
+              "Eating or drinking from plates, bowls, cups, goblets, or cutlery made of gold or silver",
+              "Gorging/overeating to a degree that causes acute bodily harm or illness",
+              "Wasting food and drink through extravagance (israf)"
+            ]
+          },
+          "explanation": {
+            "tr": "Hz. Peygamber (s.a.s.), 'Altın ve gümüş kaplardan su içmeyin, onlarla yemek yemeyin' (Buhârî, Eşribe, 28; Müslim, Libâs, 1-2) buyurarak kibir ve israf sembolü olan altın ve gümüş kaplarla yeme-içmeyi haram kılmıştır. Ayrıca A'râf 7/31 ayetinde 'Yiyin, için fakat israf etmeyin; çünkü Allah israf edenleri sevmez' buyrulmuştur.",
+            "en": "Prophet Muhammad (pbuh) explicitly forbade eating and drinking from gold and silver vessels (Sahih al-Bukhari 5634; Sahih Muslim 2065). Additionally, Surah Al-A'raf 7:31 commands: 'Eat and drink, but do not be extravagant; indeed, He does not like the extravagant.'"
+          },
+          "scriptural_evidence": [
+            "Kur'an-ı Kerim: A'râf 7/31, İsrâ 17/26-27",
+            "Hadis: Buhârî, Eşribe, 28; Müslim, Libâs, 1-2"
+          ],
+          "source_urls": [
+            "https://www.diyanethaber.com.tr/haramin-cesitleri-nelerdir"
+          ]
+        }
+      ]
+    }
+  ]
+}
